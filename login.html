@@ -1,0 +1,222 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Sistem Informasi Peminjaman Ruangan - Login</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <meta name="author" content="" />
+    <!-- link ini adalah untuk menjadikan font menjadi lebih indah dengan google font API -->
+    <link rel="stylesheet" type="text/css"
+        href="//fonts.googleapis.com/css?family=|Roboto+Sans:400,700|Playfair+Display:400,700">
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/aos.css">
+    <link rel="stylesheet" href="css/bootstrap-datepicker.css">
+    <link rel="stylesheet" href="css/jquery.timepicker.css">
+    <link rel="stylesheet" href="css/fancybox.min.css">
+
+    <link rel="stylesheet" href="fonts/ionicons/css/ionicons.min.css">
+    <link rel="stylesheet" href="fonts/fontawesome/css/font-awesome.min.css">
+
+    <!-- Theme Style -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/login.css">
+    <style>
+        body {
+            background-color: #f8f9fa;
+        }
+
+        .btn-primary {
+            background-color: #007bff;
+            border-color: #007bff;
+        }
+
+        .room-info p {
+            color: #007bff;
+        }
+
+        .btn-primary:hover,
+        .btn-primary:active,
+        .btn-primary:focus {
+            background-color: #0056b3;
+            border-color: #0056b3;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header class="site-header js-site-header">
+        <div class="container-fluid">
+            <div class="row align-items-center">
+                <div class="col-6 col-lg-4 site-logo" data-aos="fade">
+                    <a href="index.html">
+                        <img src="images/logo.png" alt="Logo" width="100" height="100">
+                    </a>
+                </div>
+                <div class="col-6 col-lg-8">
+
+
+                    <div class="site-menu-toggle js-site-menu-toggle" data-aos="fade">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+
+                    <div class="site-navbar js-site-navbar">
+                        <nav role="navigation">
+                            <div class="container">
+                                <div class="row full-height align-items-center">
+                                    <div class="col-md-6 mx-auto">
+                                        <ul class="list-unstyled menu">
+                                            <li><a href="index.html">Home</a></li>
+                                            <li><a href="rooms.html">Ruangan</a></li>
+                                            <li><a href="about.html">Tentang Kami</a></li>
+                                            <li class="active"><a href="login.html">Login</a></li>
+                                            <li><a href="registrasi.html">Registrasi</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- BAGIAN 1 AWAL -->
+    <section class="site-hero overlay" style="background-image: url(images/banner1.jpg)"
+        data-stellar-background-ratio="0.5">
+        <div class="container">
+            <div class="row site-hero-inner justify-content-center align-items-center">
+                <div class="col-md-10 text-center" data-aos="fade-up">
+                    <h1 class="heading">Login</h1>
+                    <br>
+                    <a href="index.html"
+                        style="display: inline-block; text-decoration: none; color: white; text-transform: uppercase; margin-bottom: 3px;">Home
+                        ></a>
+                    <a
+                        style="display: inline-block; text-decoration: none; color: white; text-transform: uppercase; margin-bottom: 3px;">Login</a>
+                </div>
+            </div>
+        </div>
+
+        <a class="mouse smoothscroll" href="#next">
+            <div class="mouse-icon">
+                <span class="mouse-wheel"></span>
+            </div>
+        </a>
+    </section>
+    <!-- BAGIAN 1 AKHIR -->
+
+    <!-- BAGIAN 2 AWAL -->
+    <section class="section">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-6 col-lg-5">
+                    <div class="login-wrap p-4 p-md-5">
+                        <h3 class="text-center mb-4">Form Login</h3>
+                        <form id="login-form" class="login-form">
+                            <div class="form-group">
+                                <label for="username">Username:</label>
+                                <input type="text" id="username" name="username" class="form-control" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="password">Password:</label>
+                                <input type="password" id="password" name="password" class="form-control" required>
+                            </div>
+                            <button type="submit" class="btn btn-primary">Login</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- BAGIAN 2 AKHIR -->
+
+    <!-- FOOTER AWAL -->
+    <footer class="section footer-section">
+        <div class="container">
+            <div class="row mb-4">
+                <div class="col-md-3 mb-5">
+                    <ul class="list-unstyled link">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="rooms.html">Ruangan</a></li>
+                        <li><a href="about.html">Tentang Kami</a></li>
+                        <li><a href="peminjaman.html">Peminjaman</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3 mb-5 pr-md-5 contact-info">
+                    <h3 style="color: white;">Gedung A STT-NF</h3>
+                    <p><span class="d-block"><span class="ion-ios-location h5 mr-3 text-primary"></span>Address:</span>
+                        <span> 198
+                            Jl. Situ Indah No. 116 Kelapa Dua <br>Kota Depok Jawa Barat</span></p>
+                    <p><span class="d-block"><span class="ion-ios-telephone h5 mr-3 text-primary"></span>Phone:</span>
+                        <span> +62
+                            857-1624-3174</span></p>
+                    <p><span class="d-block"><span class="ion-ios-email h5 mr-3 text-primary"></span>Email:</span>
+                        <span>
+                            info@nurulfikri.ac.id</span></p>
+                </div>
+                <div class="col-md-3 mb-5 pr-md-5 contact-info">
+                    <h3 style="color: white;">Gedung B STT-NF</h3>
+                    <p><span class="d-block"><span class="ion-ios-location h5 mr-3 text-primary"></span>Address:</span>
+                        <span> Jl.
+                            Raya Lenteng Agung No.20, RT.4/RW.1, Srengseng Sawah, Kec. Jagakarsa, Kota Jakarta Selatan,
+                            DKI Jakarta
+                            12640</span></p>
+                    <p><span class="d-block"><span class="ion-ios-telephone h5 mr-3 text-primary"></span>Phone:</span>
+                        <span> +62
+                            857-1624-3174</span></p>
+                    <p><span class="d-block"><span class="ion-ios-email h5 mr-3 text-primary"></span>Email:</span>
+                        <span>
+                            info@nurulfikri.ac.id</span></p>
+                </div>
+            </div>
+            <div class="row pt-5">
+                <p class="col-md-6 text-left">
+                    Copyright &copy;<script>
+                        document.write(new Date().getFullYear());
+                    </script> All rights reserved
+                </p>
+
+                <p class="col-md-6 text-right social">
+                    <a href="https://web.facebook.com/STTTerpaduNF?locale=id_ID"><span
+                            class="fa fa-facebook"></span></a>
+                    <a href="https://www.instagram.com/sttterpadunf/"><span class="fa fa-instagram"></span></a>
+                </p>
+            </div>
+        </div>
+    </footer>
+    <!-- FOOTER AKHIR -->
+
+    <!-- SCRIPT -->
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/jquery-migrate-3.0.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/jquery.stellar.min.js"></script>
+    <script src="js/jquery.fancybox.min.js"></script>
+    <script src="js/login.js"></script>
+
+
+    <script src="js/aos.js"></script>
+
+    <script src="js/bootstrap-datepicker.js"></script>
+    <script src="js/jquery.timepicker.min.js"></script>
+
+
+
+    <script src="js/main.js"></script>
+    <script src="js/login.js"></script>
+</body>
+
+</html>

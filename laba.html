@@ -1,0 +1,303 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Sistem Informasi Peminjaman Ruangan - LAB A 401</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <meta name="author" content="" />
+    <!-- link ini adalah untuk menjadikan font menjadi lebih indah dengan google font API -->
+    <link rel="stylesheet" type="text/css"
+        href="//fonts.googleapis.com/css?family=|Roboto+Sans:400,700|Playfair+Display:400,700">
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/aos.css">
+    <link rel="stylesheet" href="css/bootstrap-datepicker.css">
+    <link rel="stylesheet" href="css/jquery.timepicker.css">
+    <link rel="stylesheet" href="css/fancybox.min.css">
+
+    <link rel="stylesheet" href="fonts/fontawesome/css/font-awesome.min.css">
+
+    <!-- link icon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+        integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="fonts/ionicons/css/ionicons.min.css">
+
+    <!-- Theme Style -->
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        body {
+            background-color: #f8f9fa;
+        }
+
+        .btn-primary {
+            background-color: #007bff;
+            border-color: #007bff;
+        }
+
+        .room-info h3,
+        .room-info p {
+            color: #007bff;
+        }
+
+        .btn-primary:hover,
+        .btn-primary:active,
+        .btn-primary:focus {
+            background-color: #0056b3;
+            border-color: #0056b3;
+        }
+    </style>
+
+
+</head>
+
+<body>
+
+    <header class="site-header js-site-header">
+        <div class="container-fluid">
+            <div class="row align-items-center">
+                <div class="col-6 col-lg-4 site-logo" data-aos="fade">
+                    <a href="index.html">
+                        <img src="images/logo.png" alt="Logo" width="100" height="100">
+                    </a>
+                </div>
+                <div class="col-lg-8 d-none d-lg-block"> <!-- Kolom baru untuk menu kembali -->
+                    <ul class="list-inline text-right">
+                        <li class="list-inline-item">
+                            <a href="rooms.html" class="btn btn-link" style="color: #007bff; text-decoration: none; font-weight: bold;">Kembali</a>
+                        </li>
+                        <!-- Tambahkan item menu kembali sesuai kebutuhan -->
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+    
+
+    <!-- BAGIAN 1 AWAL-->
+    <section class="site-hero overlay" style="background-image: url(images/img1.jpg)"
+        data-stellar-background-ratio="0.5">
+        <div class="container">
+            <div class="row site-hero-inner justify-content-center align-items-center">
+                <div class="col-md-10 text-center" data-aos="fade-up">
+                    <h1 class="heading">LAB A 401</h1>
+                    <br>
+                    <a href="index.html"
+                        style="display: inline-block; text-decoration: none; color: white; text-transform: uppercase; margin-bottom: 3px;">Home
+                        ></a>
+                    <a href="rooms.html"
+                        style="display: inline-block; text-decoration: none; color: white; text-transform: uppercase; margin-bottom: 3px;">Ruangan
+                        ></a>
+                    <a
+                        style="display: inline-block; text-decoration: none; color: white; text-transform: uppercase; margin-bottom: 3px;">LAB
+                        A 401</a>
+                </div>
+            </div>
+        </div>
+
+        <a class="mouse smoothscroll" href="#next">
+            <div class="mouse-icon">
+                <span class="mouse-wheel"></span>
+            </div>
+        </a>
+    </section>
+    <!-- BAGIAN 1 AKHIR-->
+
+    <!-- SLIDE AWAL -->
+    <section class="bg-light">
+        <div class="container pb-5">
+            <div class="row">
+                <div class="col-lg-5 mt-5">
+                    <div class="card mb-3">
+                        <img class="card-img img-fluid" src="images/img1.jpg" alt="Card image cap" id="product-detail">
+                    </div>
+                    <div class="row">
+                        <!--Start Carousel Wrapper-->
+                        <div id="multi-item-example" class="col-10 carousel slide carousel-multi-item"
+                            data-bs-ride="carousel">
+                            <!--Start Slides-->
+                            <div class="carousel-inner product-links-wap" role="listbox">
+
+                                <!--First slide-->
+                                <div class="carousel-item active">
+                                    <div class="row">
+                                        <div class="col-4">
+                                            <a href="#">
+                                                <img class="card-img img-fluid" src="images/img1.jpg"
+                                                    alt="Product Image 1">
+                                            </a>
+                                        </div>
+                                        <div class="col-4">
+                                            <a href="#">
+                                                <img class="card-img img-fluid" src="images/laba401.jpg"
+                                                    alt="Product Image 2">
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <!-- SLIDE AKHIR -->
+
+
+                <!-- col end -->
+                <div class="col-lg-7 mt-5">
+                    <div class="card">
+                        <div class="card-body">
+                            <h1 class="h2" style="color: black;">LAB A 401</h1>
+                            <br>
+                            <h6 style="color: black;">Deskripsi:</h6>
+                            <p style="color: black;">
+                                Kategori : Ruang Kelas <br>
+                                Gedung : Kampus A<br>
+                                Lantai : 4 <br>
+                                Kapasitas : 20 <br>
+                            </p>
+
+                            <div class="room-container" style="text-align: left;">
+                                <h3 class="room-title" style="color: black;">Fasilitas Ruangan LAB A 401</h3>
+                                <a href="link-ke-AC" class="facility-item"
+                                    style="margin-bottom: 10px; text-align: left; color: black; display: flex; align-items: center;">
+                                    <i class="fas fa-snowflake facility-icon"
+                                        style="font-size: 24px; color: black;"></i>
+                                    <span class="facility-text"
+                                        style="display: inline-block; margin-left: 10px; color: black;">AC</span>
+                                </a>
+                                <a href="link-ke-Kursi" class="facility-item"
+                                    style="margin-bottom: 10px; text-align: left; color: black; display: flex; align-items: center;">
+                                    <i class="fas fa-chair facility-icon" style="font-size: 24px; color: black;"></i>
+                                    <span class="facility-text"
+                                        style="display: inline-block; margin-left: 10px; color: black;">Kursi</span>
+                                </a>
+                                <a href="link-ke-LCD-Projector" class="facility-item"
+                                    style="margin-bottom: 10px; text-align: left; color: black; display: flex; align-items: center;">
+                                    <i class="fas fa-video facility-icon" style="font-size: 24px; color: black;"></i>
+                                    <span class="facility-text"
+                                        style="display: inline-block; margin-left: 10px; color: black;">LCD
+                                        Projector</span>
+                                </a>
+                                <a href="link-ke-Meja" class="facility-item"
+                                    style="margin-bottom: 10px; text-align: left; color: black; display: flex; align-items: center;">
+                                    <i class="fas fa-table facility-icon" style="font-size: 24px; color: black;"></i>
+                                    <span class="facility-text"
+                                        style="display: inline-block; margin-left: 10px; color: black;">Meja</span>
+                                </a>
+                                <a href="link-ke-Wifi" class="facility-item"
+                                    style="margin-bottom: 10px; text-align: left; color: black; display: flex; align-items: center;">
+                                    <i class="fas fa-wifi facility-icon" style="font-size: 24px; color: black;"></i>
+                                    <span class="facility-text"
+                                        style="display: inline-block; margin-left: 10px; color: black;">Wifi</span>
+                                </a>
+                                <!-- Tambahkan item lain sesuai kebutuhan -->
+                            </div>
+
+
+                            <form action="login.html" method="GET">
+                                <input type="hidden" name="product-title" value="Activewear">
+                                <div class="row pb-3">
+                                    <div class="col text-center">
+                                        <button type="submit" class="btn btn-primary text-white" name="submit"
+                                            value="booking">Booking</button>
+                                    </div>
+                                </div>
+                            </form>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- BAGIAN BAWAAH AWAL -->
+    <footer class="section footer-section">
+        <div class="container">
+            <div class="row mb-4">
+                <div class="col-md-3 mb-5">
+                    <ul class="list-unstyled link">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="rooms.html">Ruangan</a></li>
+                        <li><a href="about.html">Tentang Kami</a></li>
+                        <li><a href="peminjaman.html">Peminjaman</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3 mb-5 pr-md-5 contact-info">
+                    <h3 style="color: white;">Gedung A STT-NF</h3>
+                    <p><span class="d-block"><span class="ion-ios-location h5 mr-3 text-primary"></span>Address:</span>
+                        <span> 198
+                            Jl. Situ Indah No. 116 Kelapa Dua <br>Kota Depok Jawa Barat</span></p>
+                    <p><span class="d-block"><span class="ion-ios-telephone h5 mr-3 text-primary"></span>Phone:</span>
+                        <span> +62
+                            857-1624-3174</span></p>
+                    <p><span class="d-block"><span class="ion-ios-email h5 mr-3 text-primary"></span>Email:</span>
+                        <span>
+                            info@nurulfikri.ac.id</span></p>
+                </div>
+                <div class="col-md-3 mb-5 pr-md-5 contact-info">
+                    <h3 style="color: white;">Gedung B STT-NF</h3>
+                    <p><span class="d-block"><span class="ion-ios-location h5 mr-3 text-primary"></span>Address:</span>
+                        <span> Jl.
+                            Raya Lenteng Agung No.20, RT.4/RW.1, Srengseng Sawah, Kec. Jagakarsa, Kota Jakarta Selatan,
+                            DKI Jakarta
+                            12640</span></p>
+                    <p><span class="d-block"><span class="ion-ios-telephone h5 mr-3 text-primary"></span>Phone:</span>
+                        <span> +62
+                            857-1624-3174</span></p>
+                    <p><span class="d-block"><span class="ion-ios-email h5 mr-3 text-primary"></span>Email:</span>
+                        <span>
+                            info@nurulfikri.ac.id</span></p>
+                </div>
+            </div>
+            <div class="row pt-5">
+                <p class="col-md-6 text-left">
+                    <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                    Copyright &copy;<script>
+                        document.write(new Date().getFullYear());
+                    </script> All rights reserved
+                    <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                </p>
+
+                <p class="col-md-6 text-right social">
+                    <a href="https://web.facebook.com/STTTerpaduNF?locale=id_ID"><i
+                            class="fa-brands fa-facebook-f"></i></a>
+                    <a href="https://www.instagram.com/sttterpadunf/"><i class="fa-brands fa-instagram"></i></a>
+                </p>
+
+            </div>
+        </div>
+    </footer>
+    <!-- BAGIAN BAWAH AKHIR -->
+
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/jquery-migrate-3.0.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/jquery.stellar.min.js"></script>
+    <script src="js/jquery.fancybox.min.js"></script>
+
+
+    <script src="js/aos.js"></script>
+
+    <script src="js/bootstrap-datepicker.js"></script>
+    <script src="js/jquery.timepicker.min.js"></script>
+
+
+
+    <script src="js/main.js"></script>
+    <script src="js/lab.js"></script>
+
+
+</body>
+
+</html>
