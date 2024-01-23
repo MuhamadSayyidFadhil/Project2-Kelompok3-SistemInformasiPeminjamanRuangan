@@ -43,11 +43,5 @@ function validateLogin(username, password, sampleUsername, samplePassword) {
 function checkLoginStatus() {
     // Cek apakah ada status login sebelumnya
     const isLoggedIn = localStorage.getItem("isLoggedIn");
-
-    // Redirect ke halaman login jika pengguna belum login
-    if (!isLoggedIn) {
-        alert('Anda harus login terlebih dahulu untuk melakukan peminjaman ruangan.');
-        window.location.href = 'login.html';
-    }
 }
 
